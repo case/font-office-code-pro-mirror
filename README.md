@@ -1,3 +1,12 @@
+<!-- Mirror notice (added by case/font-office-code-pro-mirror — not part of upstream README) -->
+
+> [!NOTE]
+> **Community mirror** of [`nathco/Office-Code-Pro`](https://github.com/nathco/Office-Code-Pro), which was deleted from GitHub around 2025-08-18 — disabling the Homebrew cask `font-office-code-pro` ([homebrew-cask#224323](https://github.com/Homebrew/homebrew-cask/pull/224323)). I created this mirror because Office Code Pro is my preferred Terminal font, and I want it to remain installable.
+>
+> The [1.004 release tarball](https://github.com/case/font-office-code-pro-mirror/releases/tag/1.004) here is **byte-identical to the original** (SHA256 `9bca923d17f6c47a586d8e4567d46ccfa58fb8b8e2247b5ee2a19da1597c58f6`, matching the historical Homebrew cask), recovered from the Internet Archive's [2020-09-05 snapshot](https://web.archive.org/web/20200905112753/https://codeload.github.com/nathco/Office-Code-Pro/tar.gz/1.004) of the original release. The font is unmodified; the Reserved Font Name "Office Code Pro" applies per the [SIL Open Font License v1.1](LICENSE.txt) by Nathan Rutzky and Adobe Systems.
+
+---
+
 # Office Code Pro
 
 **Office Code Pro** is a customized version of **Source Code Pro**, the monospaced sans serif originally created by Paul D. Hunt for Adobe Systems Incorporated. The customizations were made specifically for text editors and coding environments, but are still very usable in other applications.
