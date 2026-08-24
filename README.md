@@ -5,6 +5,27 @@
 >
 > The [1.004 release tarball](https://github.com/case/font-office-code-pro-mirror/releases/tag/1.004) here is **byte-identical to the original** (SHA256 `9bca923d17f6c47a586d8e4567d46ccfa58fb8b8e2247b5ee2a19da1597c58f6`, matching the historical Homebrew cask), recovered from the Internet Archive's [2020-09-05 snapshot](https://web.archive.org/web/20200905112753/https://codeload.github.com/nathco/Office-Code-Pro/tar.gz/1.004) of the original release. The font is unmodified; the Reserved Font Name "Office Code Pro" applies per the [SIL Open Font License v1.1](LICENSE.txt) by Nathan Rutzky and Adobe Systems.
 
+### Install with Homebrew (macOS or Linux)
+
+The cask lives in my personal tap, [`case/homebrew-tap`](https://github.com/case/homebrew-tap):
+
+```
+brew install --cask case/tap/font-case-office-code-pro
+```
+
+The fully qualified name taps the repository and trusts only that one cask. Homebrew 6.0.0+ requires explicit trust for non-official taps — see [Tap Trust](https://docs.brew.sh/Tap-Trust).
+
+In a `Brewfile`:
+
+```ruby
+tap "case/tap", trusted: { cask: "font-case-office-code-pro" }
+cask "case/tap/font-case-office-code-pro"
+```
+
+[Homebrew runs on Linux and WSL2](https://docs.brew.sh/Homebrew-on-Linux), and fonts land in `~/Library/Fonts` on macOS and `$XDG_DATA_HOME/fonts` (usually `~/.local/share/fonts`) on Linux; run `fc-cache -f` afterwards if applications do not pick them up.
+
+Otherwise, download the [1.004 release](https://github.com/case/font-office-code-pro-mirror/releases/tag/1.004) and install the fonts by hand.
+
 ---
 
 # Office Code Pro
